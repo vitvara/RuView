@@ -394,3 +394,8 @@ sqlalchemy.url = "postgresql://localhost/wifi_densepose"
 version_variable = "src/__init__.py:__version__"
 version_pattern = "pyproject.toml:version = \"{version}\""
 build_command = "pip install build && python -m build"
+
+[tool.uv.workspace]
+members = [
+    "firmware/esp32-csi-node",
+]

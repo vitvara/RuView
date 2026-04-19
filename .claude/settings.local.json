@@ -1,6 +1,12 @@
 {
+  "permissions": {
+    "allow": [
+      "Bash(/Users/vitvara.v/.pyenv/versions/3.10.13/bin/python3 -m esp_idf_nvs_partition_gen --help)",
+      "Bash(cargo check *)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
   "enabledMcpjsonServers": [
     "claude-flow"
-  ],
-  "enableAllProjectMcpServers": true
+  ]
 }

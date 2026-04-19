@@ -43,6 +43,9 @@ clap = { workspace = true }
 # Multi-BSSID WiFi scanning pipeline (ADR-022 Phase 3)
 wifi-densepose-wifiscan = { version = "0.3.0", path = "../wifi-densepose-wifiscan" }
 
+# RuVector min-cut for subcarrier assignment
+ruvector-mincut = { workspace = true }
+
 # Signal processing with RuvSense pose tracker (accuracy sprint)
 wifi-densepose-signal = { version = "0.3.0", path = "../wifi-densepose-signal" }
 
